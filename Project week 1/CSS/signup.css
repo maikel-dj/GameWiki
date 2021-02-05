@@ -1,0 +1,78 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    height: 100vh;
+}
+
+body 
+{
+    min-height: 100vh;
+    color: #ffffff;
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content
+{
+    width: 500px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+form h1
+{
+    text-align: center;
+    border-bottom: solid #ffffff;
+}
+
+form p
+{
+    margin: 15px 0;
+}
+
+form label
+{
+    font-size: larger;
+}
+
+form input
+{
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 25px;
+    margin-bottom: 15px;
+}
+
+form a
+{
+    color: #ffffff;
+}
+
+button
+{
+    height: 50px;
+    border-radius: 10px;
+}
+
+.container.signin,
+.container.login
+{
+    text-align: center;
+    font-size: x-large;
+}
